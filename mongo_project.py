@@ -119,7 +119,9 @@ def delete_record():
                 coll.remove(doc)
                 print("Document deleted!")
             except:
-                print("Document not deleted")
+                print("Error accessing the database")
+        else:
+            print("Document not deleted")        
 
 
 def main_loop():
