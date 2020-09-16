@@ -32,6 +32,7 @@ def show_menu():
 
 
 def get_record():
+    """helper function, which is going to assist with the find, edit, and delete functions. (reuseable code)"""
     print("")
     first = input("Enter first name > ")
     last = input("Enter last name > ")
